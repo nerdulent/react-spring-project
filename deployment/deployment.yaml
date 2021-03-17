@@ -15,9 +15,9 @@ spec:
     spec:
       containers:
       - name: react-java
-        image: 
+        image: nerdulent/react-java:7
         ports:
-        - containerPort: 8082
+        - containerPort: 8080
       restartPolicy: Always
       terminationGracePeriodSeconds: 30
 ---
